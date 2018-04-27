@@ -8,5 +8,5 @@ It uses Docker to build a temporary CentOS 7 environment with all the requiremen
 `make` should do all the steps and output fresh RPMs to your host
 
 # troubleshooting
-* if the *Docker Build* stage fails you will to debug the build from the console log
-* if the *Docker Run* stage fails to rpmbuild then you can jump into the build environment to debug with `make shell`
+* if the *Docker Build* stage fails you can debug the build from the console log
+* if the *Docker Run* stage fails to rpmbuild then you can investigate the build environment with `make shell`
