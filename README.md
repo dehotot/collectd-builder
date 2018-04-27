@@ -5,7 +5,7 @@ A ephermeral build environment for producing collectd RPMs for CentOS/RHEL 7, se
 It uses Docker to build a temporary CentOS 7 environment with all the requirements for collectd, then a Docker Run does an rpmbuild and copies the new RPMs to your host.
 
 # building
-`make` should do all the steps necessecary
+`make` should do all the steps and output fresh RPMs to your host
 
 # troubleshooting
 * if the *Docker Build* stage fails you will to debug the build from the console log
